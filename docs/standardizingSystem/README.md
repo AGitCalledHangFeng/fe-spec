@@ -1,7 +1,7 @@
 ---
-sort: 2
+sort: 1
 ---
 
-# Configuration
+# 规范制度
 
 {% include list.liquid %}
