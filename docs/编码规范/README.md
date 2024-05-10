@@ -2,6 +2,6 @@
 sort: 1
 ---
 
-# 规范制度
+# 编码规范
 
 {% include list.liquid %}
