@@ -1,3 +1,7 @@
+---
+sort: 2
+---
+
 # JavaScript 编码规约
 
 ## 前言
@@ -464,8 +468,6 @@ JavaScript 编码规约主要包含编码风格、语言特性、注释、命名
   }
   ```
 
-
-
 ### 1.6 空行
 
 - 1.6.1 `推荐` 在文件末尾保留一行空行。eslint: [eol-last](https://eslint.org/docs/rules/eol-last)
@@ -491,7 +493,6 @@ JavaScript 编码规约主要包含编码风格、语言特性、注释、命名
   // ...
   export default foo;↵
   ```
-
 
 - 1.6.2 `强制` 块的开始和结束不能是空行。eslint: [padded-blocks](https://eslint.org/docs/rules/padded-blocks)
 
@@ -2106,7 +2107,6 @@ JavaScript 编码规约主要包含编码风格、语言特性、注释、命名
   export default Component;
   ```
 
-
 - 2.7.12 `参考` 模块开发者选择ESM和CJS时，需要判断运行时环境：如果你的模块是只面向浏览器的则选择ESM；如果你的模块是只面向Node.js的则选择CJS，并且确定遵循[CJS命名空间规则](https://nodejs.org/api/esm.html#esm_commonjs_namespaces)；如果你的模块是2者都要兼容的，则ESM和CJS都要支持。
 
   Node.js的模块，历史上Node.js遵循的是CommonJS，因此ES6 Module会有比较严重的兼容性问题。暂时没有特别好的解法，只能在Node.js中跟进运行时环境，判断使用模块标准。[讨论issue](https://github.com/nodejs/node/issues/33954)
@@ -2150,7 +2150,6 @@ JavaScript 编码规约主要包含编码风格、语言特性、注释、命名
   num += 1;
   num -= 1;
   ```
-
 
 - 2.8.3 `强制` 不要使用 void 运算符。eslint: [no-void](https://eslint.org/docs/rules/no-void)
 
@@ -2444,7 +2443,6 @@ JavaScript 编码规约主要包含编码风格、语言特性、注释、命名
     return Boolean(x);
   }
   ```
-
 
 - 2.10.3 `推荐` 禁止使用 alert。eslint: [no-alert](https://eslint.org/docs/rules/no-alert)
 
@@ -2906,3 +2904,4 @@ JavaScript 编码规约主要包含编码风格、语言特性、注释、命名
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 - [ESLint rules](https://eslint.org/docs/rules/)
+  
