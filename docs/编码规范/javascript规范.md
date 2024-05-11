@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 4
 ---
 
 # JavaScript 编码规约
