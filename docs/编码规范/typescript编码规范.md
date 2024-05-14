@@ -701,4 +701,4 @@ TypeScript 是微软开发的一款开源编程语言，它是 JavaScript 的超
 
 ## 配套工具
 
-- [fh-eslint-config](https://www.npmjs.com/package/fh-eslint-config)：本规约配套的 [ESLint](http://eslint.org/) 规则包，可使用 `fh-eslint-config/typescript` 引入本文介绍的规则
+- [eslint-config-fh](https://www.npmjs.com/package/eslint-config-fh)：本规约配套的 [ESLint](http://eslint.org/) 规则包，可使用 `eslint-config-fh/typescript` 引入本文介绍的规则

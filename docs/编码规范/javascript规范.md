@@ -2897,7 +2897,7 @@ JavaScript 编码规约主要包含编码风格、语言特性、注释、命名
 
 ## 配套工具
 
-- [fh-eslint-config](https://www.npmjs.com/package/fh-eslint-config)：本规约配套的 [ESLint](http://eslint.org/) 规则包
+- [eslint-config-fh](https://www.npmjs.com/package/eslint-config-fh)：本规约配套的 [ESLint](http://eslint.org/) 规则包
 
 ## 参考资料
 
